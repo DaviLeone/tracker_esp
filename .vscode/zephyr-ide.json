@@ -1,0 +1,29 @@
+{
+  "projects": {
+    "led_strip": {
+      "relPath": "",
+      "name": "led_strip",
+      "buildConfigs": {
+        "build/esp32c3_devkitm/esp32c3": {
+          "relBoardSubDir": "espressif/esp32c3_devkitm",
+          "board": "esp32c3_devkitm/esp32c3",
+          "name": "build/esp32c3_devkitm/esp32c3",
+          "compilerOptimization": "none",
+          "westBuildArgs": [],
+          "westBuildCMakeArgs": [
+            "-DCONFIG_NO_OPTIMIZATIONS=y"
+          ],
+          "confFiles": {
+            "config": [],
+            "overlay": []
+          }
+        }
+      },
+      "twisterConfigs": {},
+      "confFiles": {
+        "config": [],
+        "overlay": []
+      }
+    }
+  }
+}
